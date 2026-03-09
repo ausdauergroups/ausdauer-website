@@ -97,7 +97,7 @@ const Home = () => {
                   Using 'object-cover' ensures it fills the screen frame perfectly.
                */}
                <img 
-                 src="./" 
+                 src="MAIN.png" 
                  alt="Project Preview"
                  className="w-full h-full object-cover opacity-90 transition-opacity duration-500 group-hover:opacity-100" 
                  onError={(e) => e.target.style.display='none'} // Hides broken icon if path is empty
